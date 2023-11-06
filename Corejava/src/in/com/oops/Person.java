@@ -2,11 +2,30 @@ package in.com.oops;
 
 public class Person {
    
-public int id;
-public String name;
-public char ch;
-public String nn() {
-	return"abc";
-}
+	private int id;
+	private String firstName;
+	private String lastName;
 	
+	
+	public void setId(int id) {
+		this.id=id;
+		
+	}
+	public int getId() {
+		return id;
+	}
+ public void setFirstName(String firstName) {
+	 this.firstName= firstName;
+ }
+ public String getFirstName() {
+	 return firstName;
+	 
+ }
+ public void setLastName(String lastName) {
+	 this.lastName= lastName;
+ }
+ public String getLastName() {
+	 return lastName;
+ }
+ public static final int AVG_AGE=18;
 }

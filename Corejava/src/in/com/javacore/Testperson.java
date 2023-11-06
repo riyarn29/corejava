@@ -7,14 +7,25 @@ public static void main(String[] args) {
 	
 
 	Person p= new Person();
-	p.id=100;
-	p.name="Riya";
-	p.ch='a';
-	String ss=p.nn();
-	System.out.println(p.id);
-	System.out.println(p.name);
-	System.out.println(p.ch);
-	System.out.println(ss);
+	//p.id=100;
+	//p.firstName="Riya";
+	//p.lastName="Rana";
+	
+	//System.out.println(p.id);
+	//System.out.println(p.firstName);
+	//System.out.println(p.lastName);
+	
+	
+	
+	p.setFirstName("riya");
+	p.setId(24);
+	p.setLastName("rana");
+	System.out.println(p.getFirstName());
+	System.out.println(p.getId());
+	System.out.println(p.getLastName());
+	System.out.println(Person.AVG_AGE);
+	
+	
 	
 }
 }
