@@ -13,4 +13,4 @@ public class Reversenum {
 				}
 System.out.println("Reverse num="+sum);
 	}
-}			;
+}			

@@ -16,5 +16,4 @@ public int getBorderWidth() {
 public void setBorderWidth(int borderWidth) {
 	this.borderWidth = borderWidth;
 }
-
 }
