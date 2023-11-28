@@ -4,17 +4,17 @@ public class TestConstructorcalling {
 	
 	public static void main(String[] args) {
 		
-		Employee e =new Employee();
-		Employee ee =new Employee("riya","rana","teacher");
-		System.out.println(ee.getFirstName());
-		System.out.println(ee.getLastName());
-		System.out.println(ee.getDesination());
+		Employee e=new Employee();
+		Employee e1=new Employee("riya","rana","teacher");
+		System.out.println(e1.getFirstName());
+		System.out.println(e1.getLastName());
+		System.out.println(e1.getDesignation());
 		
-		
-		Person p= new Person("riya","rana","teacher");
-		Person pp= new Person("riya","rana");
-		
-		
+		Person p=new Person();
+		Person p1=new Person("riya","rana","92 ab road");
+System.out.println(p1.getFirstName());
+System.out.println(p1.getLastName());
+System.out.println(p1.getAddress());
 		
 	}
 

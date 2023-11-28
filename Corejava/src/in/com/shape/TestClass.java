@@ -13,7 +13,7 @@ public static void main(String[] args) throws ParseException {
 	y.setDob(sdf.parse("29-01-2004"));
 	y.setName("riya");
 	System.out.println(y.getName());
-	System.out.println(y.getDob());
+	System.out.println(sdf.format(y.getDob()));
 	
 	}
 }

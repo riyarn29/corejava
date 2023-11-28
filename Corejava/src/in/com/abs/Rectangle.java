@@ -17,19 +17,16 @@ public class Rectangle extends Shape{
 	public void setWidth(int width) {
 		this.width = width;
 	}
-	public void  Rarea(){
-		int area=getLength()*getWidth();
-		System.out.println("rectangle area="+area);
-			
-	}
 
-	@Override
-	public void area() {
-		// TODO Auto-generated method stub
-		
-	}
-
+public void Rarea() {
+	int area =getLength()*getWidth();
+	System.out.println("rectangle area="+area);
+}
+@Override
+public void area() {
+	// TODO Auto-generated method stub
 	
+}
 	
 
 }

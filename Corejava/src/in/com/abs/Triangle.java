@@ -2,16 +2,11 @@ package in.com.abs;
 
 public class Triangle extends Shape {
 
-	@Override
-	public void area() {
-		// TODO Auto-generated method stub
-		
-	}
-	private int base;
 	private int height;
-
+	private int base;
+	
 	public void setHeight(int height) {
-		this.height = height;
+		this.height=height;
 	}
 	public int getHeight() {
 		return height;
@@ -23,8 +18,12 @@ public class Triangle extends Shape {
 		return base;
 	}
 	public void Tarea() {
-		int area=getBase()*getHeight()/2;
+		int area =getBase()*getHeight()/2;
 		System.out.println("triangle area="+area);
 	}
-
+	@Override
+	public void area() {
+		// TODO Auto-generated method stub
+		
+	}
 }

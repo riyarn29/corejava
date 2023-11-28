@@ -8,16 +8,21 @@ public class TestShape {
 		
 		Rectangle r=new Rectangle();
 		r.area();
+		r.sum();;
+		Shape.shape();
+		r.setLength(10);
+		r.setWidth(20);
 		r.Rarea();
-		r.shape();
+		
 		
 		//(Here we are holding child class in parent class so we can only call parent class methods both
 		//abstract and non abstract)
 		Shape s=new Circle();
 		s.area();
+		s.sum();
 		s.shape();
-		
+	
 		//(or you can make the non abstract method static and call the method using class name like give below)
-	Shape.sum();
+	Shape.shape();
 		
 	}}

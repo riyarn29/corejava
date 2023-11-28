@@ -1,13 +1,13 @@
 package in.com.abs;
 
-public abstract class Shape {
-public abstract void area();
+public abstract  class Shape {
+public abstract void area() ;
 
-public static void sum() {
-	System.out.println("sum method");
-	
+public void sum() {
+	System.out.println("sum method of shape class");
 }
-public void shape() {
+public static void shape() {
 	System.out.println("shape method");
 }
+
 }

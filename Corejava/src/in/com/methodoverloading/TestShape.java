@@ -10,6 +10,7 @@ public class TestShape {
 		for(int i=0;i<s.length;i++) {
 			s[i].area();
 	}
-
+		Shape s1=new Shape();
+		s1.area();
 }
 }

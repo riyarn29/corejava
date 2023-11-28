@@ -15,18 +15,17 @@ public class Businessman extends Person implements Richman,SocialWorker{
 	}
 
 	@Override
-	public void donation() {
+	public void party() {
 		// TODO Auto-generated method stub
 		
 	}
 
 	@Override
-	public void party() {
+	public void donation() {
 		// TODO Auto-generated method stub
 		
 	}
 	public void happy() {
 		System.out.println("businessman method");
 	}
-	
 }

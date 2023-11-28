@@ -1,19 +1,20 @@
 package in.com.interf;
 
 public class Person {
+
 private String firstName;
 private String lastName;
 
-public String getFirstName() {
+public void setFirstName(String firstName) {
+	this.firstName=firstName;
+}
+public String getfirstName() {
 	return firstName;
 }
-public void setFirstName(String firstName) {
-	this.firstName = firstName;
+public void setLastName(String lastName) {
+	this.lastName=lastName;
 }
 public String getLastName() {
 	return lastName;
-}
-public void setLastName(String lastName) {
-	this.lastName = lastName;
 }
 }
