@@ -1,9 +1,11 @@
 package in.com.checked;
-public class LoginExc extends Exception {
+
+public class LoginExc extends Exception{
 
 	public LoginExc() {
-		super("invalid");
+		super("user is invalid...");
 	}
 	
 }
+
 

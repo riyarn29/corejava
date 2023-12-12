@@ -1,21 +1,16 @@
 package in.com.javacore;
 
-public class Hello{
-public static void main(String[]args) {
-
-String s1="120.5";
-String s2="5";
-System.out.println(Double.parseDouble(s1)+Integer.parseInt(s2));
-
-	System.out.println(args[5]);
- 
-	char[] copyFrom= {'a','b','c','d','e','f'};
-	char[]copyTo=new char[2];
-	System.arraycopy(copyFrom, 3,copyTo, 0, 2);
-	System.out.println(new String(copyTo));
-
+public class Hello {
+public static void main(String[] args) {
+	int a=5;
+	int b=10;
+	int sum=a+b;
+	int minus=a-b;
+	int div=b/a;
+int multiply =a*b;
+System.out.println("sum="+sum);
+System.out.println("minus="+minus);
+System.out.println("div="+div);
+System.out.println("multiply="+multiply);
 }
-
-
-
 }

@@ -2,27 +2,31 @@ package in.com.abs;
 
 public class TestShape {
 	public static void main(String[] args) {
-	
-		//(you can call abstract or non abstract method of parent using child like given below ,
-		//in this way we can use child as well as parent class k methods) 
 		
-		Rectangle r=new Rectangle();
-		r.area();
-		r.sum();;
-		Shape.shape();
-		r.setLength(10);
-		r.setWidth(20);
-		r.Rarea();
-		
-		
-		//(Here we are holding child class in parent class so we can only call parent class methods both
-		//abstract and non abstract)
-		Shape s=new Circle();
-		s.area();
-		s.sum();
-		s.shape();
-	
-		//(or you can make the non abstract method static and call the method using class name like give below)
-	Shape.shape();
-		
-	}}
+	//by this method the object will call only parent ki method 
+Shape s=new Rectangle(); 
+s.area();
+s.sum();
+
+//by this method you can call child+parent ki method
+Rectangle r=new Rectangle();
+r.area();
+r.sum();
+r.rArea();
+
+Circle c=new Circle();
+c.area();
+c.cArea();
+c.sum();
+
+Triangle t=new Triangle();
+t.area();
+t.tArea();
+t.sum();
+
+
+//or you can make the non abs method static and call it by class name
+Shape.summ();
+
+}
+}

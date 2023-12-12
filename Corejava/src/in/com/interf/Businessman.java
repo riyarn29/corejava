@@ -2,6 +2,9 @@ package in.com.interf;
 
 public class Businessman extends Person implements Richman,SocialWorker{
 
+	public void happy() {
+		System.out.println("businessman method");
+	}
 	@Override
 	public void helpOthers() {
 		// TODO Auto-generated method stub
@@ -25,7 +28,5 @@ public class Businessman extends Person implements Richman,SocialWorker{
 		// TODO Auto-generated method stub
 		
 	}
-	public void happy() {
-		System.out.println("businessman method");
-	}
+
 }

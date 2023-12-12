@@ -1,13 +1,14 @@
 package in.com.inheritance;
 
 public class Shape {
+private int border;
 private String color;
-private int borderwidth;
-public int getBorderwidth() {
-	return borderwidth;
+
+public int getBorder() {
+	return border;
 }
-public void setBorderwidth(int borderwidth) {
-	this.borderwidth = borderwidth;
+public void setBorder(int border) {
+	this.border = border;
 }
 public String getColor() {
 	return color;
@@ -16,9 +17,6 @@ public void setColor(String color) {
 	this.color = color;
 }
 public void area() {
-	System.out.println("shape area method");
-}
-public void area(int a) {
-	System.out.println("shape area method 2");
+	System.out.println("shape area");
 }
 }
